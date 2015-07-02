@@ -1,0 +1,19 @@
+{
+  "name": "salonApp",
+  "version": "1.0.0",
+  "description": "An app that helps users post their salon businesses and services and customers can book appointments with them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andela-sadelokiki/salonApp.git"
+  },
+  "author": "Susan Adelokiki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-sadelokiki/salonApp/issues"
+  },
+  "homepage": "https://github.com/andela-sadelokiki/salonApp"
+}
