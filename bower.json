@@ -1,0 +1,21 @@
+{
+  "name": "salonApp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/andela-sadelokiki/salonApp",
+  "authors": [
+    "Susan <susan.adelokiki@andela.co>"
+  ],
+  "description": "An app that helps users post their salon businesses and services and customers can book appointments with them",
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1"
+  }
+}
