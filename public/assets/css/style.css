@@ -1,27 +1,143 @@
 body {
-  background-image: url("http://cdn2.hubspot.net/hub/437669/file-2341591537-jpg/blog-files/salon-stock-photo.jpg") !important;
-  background-size: cover !important;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  display: flex;
+  min-height: 100px;
+  flex-direction: column;
+  /*padding-top: 70px;*/
 }
 
 header {
   height: 100px;
   color: black;
   width: 1500px;
-  background-color: black;
+  background-color: rgb(33, 43, 61);
+  width: 100%;
+  margin: 0 auto;
 }
 
 header .logo {
-  margin: 15px auto;
+  margin: 25px auto;
   display: inline-block;
   color: white;
-  margin-left: 25px;
+  margin-left: -36px;
   font-size: 30px;
 }
 
 .container {
   min-height: 670px;
   line-height: 0;
+  margin: 0 auto;
   height: auto;
-  color: rgba(255, 255, 255, .9);
+  background-color: black;
   padding-top: 10em;
+  width: 100% !important;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+}
+
+ul.nav {
+  float: right;
+  list-style: none;
+  padding-left: 0;
+  margin: 10px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.inner {
+  width: 1140px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding: 0 10px;
+  zoom: 1;
+}
+
+ul.nav li {
+  display: inline-block;
+}
+
+ul.nav li a {
+  padding: 15px 20px;
+  display: inline-block;
+  margin: 12px 5px 0;
+  font-weight: bold;
+}
+
+a.menu {
+  color: white;
+}
+
+.card .card-image img {
+  height: 411.656px;
+}
+
+.slider {
+  height: 100%
+}
+
+.SignupSignin {
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgba(13, 1, 2, 0.76);
+}
+
+.form-layout {
+  padding-top: 36px;
+  margin-left: 212px;
+}
+
+.signup-footer {
+  margin-left: 182px;
+  padding-bottom: 23px;
+}
+
+.btn-lg {
+  margin-left: 45px;
+  height: 43px;
+}
+
+.modal-backdrop.fade.in {
+  opacity: .2;
+}
+
+.form_case {
+  padding-top: 3em;
+  width: 32.4%;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.form-control {
+  color: black;
+  width: 400px;
+  font-weight: 700;
+}
+
+#google {
+  margin-right: 112px;
+}
+
+.top {
+  padding-bottom: 3em;
+}
+
+.btn-block+.btn-block {
+  margin-top: 14px;
+}
+
+span {
+  color: white;
+}
+
+#submit {
+  padding-bottom: 0.6em;
 }
